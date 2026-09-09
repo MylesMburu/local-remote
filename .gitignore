@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.local
+.local-remote/
+.DS_Store
+Thumbs.db
