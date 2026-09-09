@@ -11,6 +11,14 @@ npm start
 
 Leave that window open. It prints a PIN, a LAN address, and a QR code.
 
+To start it automatically when you sign in to Windows (no terminal):
+
+```bash
+npm run autostart
+```
+
+Undo with `npm run autostart:off`. The PC still has to be on and you have to be signed in — the phone cannot reach it if this process is not running.
+
 1. On your phone, join the **same Wi‑Fi** as the PC.
 2. Scan the QR code (or type the `http://192.168…:8787` address).
 3. Enter the PIN.

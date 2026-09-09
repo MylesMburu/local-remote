@@ -7,7 +7,9 @@
   "scripts": {
     "start": "tsx src/server/index.ts",
     "dev": "tsx watch src/server/index.ts",
-    "build": "vite build"
+    "build": "vite build",
+    "autostart": "tsx src/server/autostart.ts",
+    "autostart:off": "tsx src/server/autostart.ts --remove"
   },
   "engines": {
     "node": ">=20"
